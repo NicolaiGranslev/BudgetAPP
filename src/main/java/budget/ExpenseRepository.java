@@ -1,4 +1,4 @@
-package dk.budget;
+package budget;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

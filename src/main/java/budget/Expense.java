@@ -1,4 +1,4 @@
-package dk.budget;
+package budget;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
@@ -13,7 +13,7 @@ public class Expense {
     private double amount;
     private String category;
     private LocalDate date;
-    private boolean fixed; // true = comes every month (rent, insurance...)
+    private boolean fixed; // = comes every month (rent, insurance...)
 
     public Long getId() { return id; }
     public String getDescription() { return description; }

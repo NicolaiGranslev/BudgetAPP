@@ -1,4 +1,4 @@
-# Used to run the app online (e.g. on Render.com)
+# Use to run the app online (ex on azure or Render.com)
 FROM maven:3.9-eclipse-temurin-21 AS build
 COPY . /app
 WORKDIR /app

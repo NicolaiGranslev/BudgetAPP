@@ -10,7 +10,7 @@
         <version>3.5.7</version>
     </parent>
 
-    <groupId>dk.budget</groupId>
+    <groupId>budget</groupId>
     <artifactId>budget-app</artifactId>
     <version>1.0</version>
 
